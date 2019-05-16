@@ -23,6 +23,7 @@
         android:id="@+id/btnEnviar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:onClick="btEnviar"
         android:text="Enviar" />
 
@@ -30,5 +31,6 @@
         android:id="@+id/tvResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:text="Resultado" />
 </LinearLayout>
