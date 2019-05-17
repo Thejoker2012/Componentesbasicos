@@ -43,6 +43,31 @@
         android:layout_height="wrap_content"
         android:text="Vermelho" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disponível em Estoque" />
+
+    <RadioGroup
+        android:id="@+id/rgEstoque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sim" />
+
+        <RadioButton
+            android:id="@+id/rbNao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Não" />
+    </RadioGroup>
+
     <Button
         android:id="@+id/btnEnviar"
         android:layout_width="match_parent"
